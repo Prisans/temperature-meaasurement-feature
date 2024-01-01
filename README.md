@@ -1,3 +1,5 @@
+In this application , you'll be able to notice the change in temperature on the basis of color changes. When temeperature rises above 10*C then , color of app turns to orange ,and in case of below 10*C it remains blue. This fearture is completely build on React.Js stack. It simply uses the concept of state hooks in React.Js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
