@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(104, 104, 105, 0.112);
+}
+
+.container{
+    background: red;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 12rem;
+
+}
+
+.container .txt{
+    color: rgb(239, 239, 244);
+    font-size: 4.3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;position: relative;
+    top: 4rem;
+    right: .2rem;
+}
+
+.temp{
+    width: 50%;
+    height: 50%;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    top: 2rem;
+    left: 5.5rem;
+}
+
+.plus{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    top: 3.4rem;
+    left: 3rem;
+    text-align: center;
+}
+
+.btn{
+    font-size: 5rem;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+
+}
+
+.minus{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 3rem;
+    left: 15rem;
+    text-align: center;
+}
+
+.cold{
+    background: rgb(4, 132, 230);
+}
+
+.hot{
+    background: orange;
+}

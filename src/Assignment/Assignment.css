@@ -1,0 +1,420 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wheater-container{
+    width: 900px;
+    height: 650px;
+    background: rgb(53, 144, 241);
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+
+}
+
+.data-container{
+    width: 725px;
+    height: 650px;
+    background: rgb(234, 239, 240);
+    position: relative;
+    bottom: 7.9rem;
+    left: 11rem;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+
+.button{
+    width: 25px;
+    height: 25px;
+    border-radius: 35%;
+    color: white;
+}
+
+.add-btn{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+
+.page-btn{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    margin-left: 2rem;
+}
+
+.toggle-btn{
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    margin-left: 2rem;
+}
+
+.address-container{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.location-btn{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 2.2rem;
+    right: 2.5rem;
+    margin-left: 2rem;
+}
+
+.location{
+    position: relative;
+    font-size: 12px;
+    top: 1rem; 
+    left: 1rem;
+    color: white;
+}
+.date{
+    position: relative;
+    top: 1rem; 
+    margin-top: 8px;
+}
+
+.time{
+    position: relative;
+    top: 3.4rem;
+    left: 2.6rem;
+}
+
+.time-txt{
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.content{
+    color: white;
+    position: relative;
+    top: 9rem;
+    font-size: 2rem;
+    right: 3.7rem;
+}
+
+.deg-btn{
+    position: relative;
+    right: 1rem;
+}
+
+.sunny{
+    font-size: 1rem;
+    display: flex;
+    gap: .3rem;
+}
+
+.profile-container{
+    display: flex;
+    min-height: 50px;
+    background: rgb(234, 239, 240);
+    width: 100%;
+    justify-content: space-around;
+    border-top-left-radius: 90%;
+}
+
+.profile-content{
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.profile-photo{
+    margin-top: 9px;
+}
+
+.dot-btn{
+margin-right: 9px;
+color: black;
+}
+
+.pro-btn{
+margin-right: 9px;
+color: black;
+}
+
+.chart{
+    
+    height: 250px;
+    width: 700px;
+    background: #ffffff;
+    margin-top: 18px;
+    margin-left: 11px;
+    border-top-left-radius: 30px ;
+    border-bottom-left-radius: 30px ;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+}
+
+.upcoming-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-data p{
+    margin-top: 2px;
+    margin-left: 9px;
+}
+
+
+
+.rain-btn{
+    background: rgb(230, 229, 229);
+    color: rgb(95, 97, 97);
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+.next-btn{
+    background: rgb(230, 229, 229);
+    color: rgb(12, 13, 13);
+    border-radius: 8px;
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+.cards-content{
+    width: 700px;
+    height: 250px;
+    background: rgb(234, 239, 240);
+    margin-left: 11px;
+    margin-top: 38px;
+}
+
+.card-container{
+    margin-top: 13px;
+}
+
+.card{
+    width: 180px;
+    height: 100px;
+    background: #ffffff;
+    margin-bottom: 9px;
+    margin-right: 8px;
+    margin-top: 6px;
+    border-radius: 15%;
+
+}
+
+.upper-card{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.lower-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.humidity{
+    display: flex;
+    justify-content: space-around;
+}
+
+.humi-txt p{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-top: 9px;
+    text-align: center;
+
+}
+
+.humi-span-diagram{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6px;
+}
+
+.humi-span-diagram span{
+    height: 10px;
+    width: 50px;
+    background: rgb(53, 144, 241);
+    border-radius: 20%;
+}
+
+.humi-span-txt{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.humi-span-txt span{
+    color: #c4c1c1;
+}
+
+.card-one-content{
+    margin-top: 7px;
+}
+
+#span1-3{
+    background: rgb(237, 237, 237);
+}
+
+#span1-3 li{
+    list-style: none;
+    height: 100%;
+    width: 20px;
+    background: rgb(53, 144, 241);
+    border-radius: 10%;
+}
+
+/* .humi-btn{
+    background: rgb(53, 144, 241);
+    color: white ;
+    border-radius: 50%;
+} */
+
+.speedometer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.speed-pic{
+    position: relative;
+    bottom: .7rem;
+    left: 3rem;
+    width: 80px;
+    height: 80px;
+    scale: 2;
+
+}
+
+.speed-content p{
+    font-size: 1.2rem;
+    position: relative;
+    font-weight: 900;
+    bottom: 2rem;
+    left: 3.1rem;
+
+}
+
+.speed-content{
+    position: relative;
+    left: .4rem;
+}
+
+.card-btn{
+    background: rgb(53, 144, 241);
+    color: white ;
+    border-radius: 50%;
+}
+
+.common{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.common-txt{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.common-diagram{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.common-diagram span{
+    width: 14px;
+    height: 7px;
+    background: rgb(237, 237, 237);
+    border-radius: 20%;
+    
+}
+
+.preci-span-diagram  .same-color{
+    background: rgb(53, 144, 241);
+}
+
+.common-content{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.common-txt span{
+    color: #c4c1c1;
+}
+
+.preci-span{
+    margin-top: 7px;
+}
+
+.uv-span-diagram{
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.uv-span-diagram span{
+    width: 28px;
+
+}
+
+.common-diagram .uv-span-dia{
+    background: rgb(53, 144, 241);
+}
+
+.feel-span-diagram span{
+    width: 160px;
+}
+
+.feel-span-diagram li{
+    list-style: none;
+    width: 100px;
+    height: 100%;
+    background: rgb(53, 144, 241);
+}
+
+.rain-span-diagram span{
+    width: 160px;
+}
+
+.rain-span-diagram li{
+    list-style: none;
+    height: 100%;
+    width: 100px;
+    background: rgb(53, 144, 241);
+}
+
+
+.preci-span{
+    margin-top: 6px;
+}
+
+.preci-span-diagram span{
+    margin-top: 6px;
+}
+
+.uv-span{
+    margin-top: 6px;
+}
+
+.uv-span-diagram span{
+    margin-top: 6px;
+}
+
+.feel-span{
+    margin-top: 6px;
+}
+
+.feel-span-diagram span{
+    margin-top: 6px;
+}
+
+.rain-span{
+    margin-top: 6px;
+}
+
+.rain-span-diagram span{
+    margin-top: 6px;
+}
